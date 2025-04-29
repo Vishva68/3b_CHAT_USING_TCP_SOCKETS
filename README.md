@@ -23,9 +23,6 @@ while True:
         c.send(address[ip].encode())
     except KeyError:
         c.send("Not Found".encode())
-
-```
-```
 SERVER
 
 import socket
